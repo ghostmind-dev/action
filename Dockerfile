@@ -8,4 +8,4 @@ RUN npm install
 
 RUN npm run build
 
-ENTRYPOINT ["ls"]
+ENTRYPOINT ["node", "/usr/app/main/dist/index.js"]
