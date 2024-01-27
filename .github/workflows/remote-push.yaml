@@ -50,6 +50,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Run Node.js script
         uses: ghostmind-dev/action@main
-        with:
-          args: "state"
+     
  
