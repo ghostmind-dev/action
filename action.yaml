@@ -1,4 +1,4 @@
-name: 'Node.js Action'
+name: 'action'
 description: 'Runs a Node.js script'
 inputs:
   args:
