@@ -1,0 +1,11 @@
+name: 'Node.js Action'
+description: 'Runs a Node.js script'
+inputs:
+  args:
+    description: 'Arguments for the script'
+    required: false
+    default: 'build'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
