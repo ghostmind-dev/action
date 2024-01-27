@@ -1,11 +1,11 @@
 FROM node:20
 
-WORKDIR /usr/app/main
+WORKDIR /usr/app
 
-COPY . .
+COPY ./app .
 
 RUN npm install
 
 RUN npm run build
 
-ENTRYPOINT ["node", "/usr/app/main/dist/index.js"]
+ENTRYPOINT ["node", "/usr/app/dist/index.js"]
