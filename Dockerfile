@@ -6,4 +6,6 @@ COPY . .
 
 RUN npm install
 
-ENTRYPOINT ["node", "main.mjs"]
+# ENTRYPOINT ["node", "main.mjs"]
+
+ENTRYPOINT [ "ls" ]
