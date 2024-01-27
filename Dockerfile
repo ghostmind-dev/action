@@ -14,4 +14,6 @@ WORKDIR /usr/app/main/
 
 COPY . .
 
-ENTRYPOINT ["node", "main.mjs"]
+# ENTRYPOINT ["node", "main.mjs"]
+
+ENTRYPOINT [ "ls" ]
