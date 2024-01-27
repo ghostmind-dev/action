@@ -1,6 +1,10 @@
 {
   "name": "action",
   "dependencies": {
-    "zx": "^7.2.3"
+    "zx": "^7.2.3",
+    "@vercel/ncc": "^0.38.1"
+  },
+  "scripts": {
+    "build": "ncc build main.js -o dist"
   }
 }

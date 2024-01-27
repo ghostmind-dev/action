@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm install
 
-# ENTRYPOINT ["node", "main.mjs"]
+RUN npm run build
 
-ENTRYPOINT [ "ls" ]
+ENTRYPOINT ["node", "main.build.js"]
