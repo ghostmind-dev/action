@@ -14,4 +14,4 @@ WORKDIR /usr/app/main/
 
 COPY . .
 
-ENTRYPOINT ["npm", "run", "start"]
+ENTRYPOINT ["node", "main.mjs"]
