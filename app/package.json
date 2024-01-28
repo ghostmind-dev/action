@@ -5,6 +5,6 @@
     "@vercel/ncc": "^0.38.1"
   },
   "scripts": {
-    "build": "ncc build main.js -o dist"
+    "build": "ncc build src/main.js -o dist"
   }
 }
